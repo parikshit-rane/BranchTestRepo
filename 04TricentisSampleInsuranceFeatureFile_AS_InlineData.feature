@@ -36,7 +36,7 @@ Scenario: Select Price Option
  And user clicks on "Next »" button
  Then "Send Quote Page" is displayed successfully
  
-Scenario: Send Quote
+Scenario: Send Quotes
  Given user is on "Send Quote Page"
  When user enters "E-Mail" as "geoff.marshall@testmail.com" and "Username" as "gmarshall" and "Password" as "Te$t@P@$$w0rd" and "ConfirmPassword" as "Te$t@P@$$w0rd"
  And user clicks on "« Send »" button
